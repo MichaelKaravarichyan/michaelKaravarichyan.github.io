@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #434343;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header li {
+    margin: 0 25px;
+    color: whitesmoke;
+    list-style: none;
+    font-size: 20px;
+    font-family: arial; /* andradarnal font  */
+}
+/* page 2 START */
+.page2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.text {
+    text-align: center;
+    top: 100px; 
+    position: relative;
+}
+
+.text h1 {
+    color: white;
+    font-size: 50px;
+    font-family: arial;
+}
+
+.text p {
+    color: white;
+    font-size: 20px;
+    font-family: tahoma;
+    letter-spacing: 2px;
+}
+/* Page3 START   */
+.page3 {
+    width: 100%;
+    height: 75vh;
+    background-image: url(../img/2.webp);
+}
+
+.page3 h2 {
+    text-align: center;
+    color: white;
+    font-family: tahoma;
+    /* margin-top: 30px; */
+    position: relative;
+    top: 40px;
+    font-size: 33px;
+    font-weight: lighter;
+}
+
+.parent-services {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    text-align: center;
+}
+
+.parent-services>div {
+    width: 28%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+}
+
+.parent-services>div>div {
+   width: 100px;
+   height: 100px; 
+   border: 3px solid white;
+   border-radius: 50%;
+   margin: auto;
+   margin-bottom: 30px;
+}
+
+.parent-services h3 {
+    font-family: tahoma;
+    font-weight: lighter;
+}
+
+.parent-services p {
+    margin-top: 20px;
+    font-family: tahoma;
+    font-weight: lighter;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* .page 4 START  */
+.page4 {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.page4 h1 {
+    font-family: tahoma;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.page4 p {
+    font-size: 25px;
+}
+
+.galleries {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.gallery-item {
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.overline {
+    width: 100%;
+    height: 100%;
+    background-color: #7c7979a2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 0;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+    flex-direction: column;
+}
+.overline:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.overline > h1 {
+    justify-content: center;
+    display: flex; 
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.overline > p {
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+}
+/* page 5 START  */
+.page5 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+.page5{
+
+    margin-top: 50px; /* chi stacvum et pahe */
+    width: 50%;
+    height: 50vh;
+    background-color: white;
+    margin: auto;
+}
+
+.bio h1 {
+    font-family: tahoma;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 30px 0;
+}
+/* page6 START  */
+.page6 {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+/* page6 START  */
+.main-page {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/3.webp);
+    background-size: cover;
+
+    /* display: flex;
+    flex-wrap: wrap;     */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    width: 50%;
+    height: 700px;
+    margin: auto;
+
+    /* display: flex;
+    flex-wrap: wrap;   chi ashxatum */ 
+}
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.section p {
+    font-size: 15px;
+    font-family: arial;
+    margin-top: 30px;
+} 
+
+
+.section{
+    width: calc(100% / 2);
+}
+ 
